@@ -1,0 +1,246 @@
+@font-face{
+    font-family: Merriweather;
+    src:url(../myrnalyn/fonts/Merriweather/Merriweather-BlackItalic.ttf);
+
+}
+@font-face{
+    font-family:Sacramento;
+    src:url(.fonts/Sacramento/Sacramento-Regular.ttf);
+}
+@font-face{
+    font-family: Monserrat;
+    src:url(.fonts/Monserrat/Monserrat-Regular.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+background-color:rgb(206, 194, 194);
+margin:0;
+color:#40514E;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1{
+    color:rgb(26, 21, 21);
+    padding-top: 1in;
+    line-height: 2;
+    font-family:Merriweater,cursive;
+    font-size: 5rem;
+    
+}
+h2{
+    color:#046863;
+    font-family: Sacramento,cursive;
+    font-size: 3rem;
+    font-weight: 12px;
+    margin-top: 0in;
+    padding-bottom: 2px;
+}
+#web{
+    color: rgb(54, 54, 40);
+    font-size: 2rem;
+}
+#hello{
+    margin-top: 0px;
+    padding-top:0px;
+}
+#comment{
+    margin-top:1px;
+    padding-bottom:50px;
+    color: black;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    text-align:center;
+}
+h3{
+    color: #08706b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+p{
+    line-height: 2;
+    font:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top-container{
+    position: relative;
+    padding-bottom: 0in;
+    background-image:linear-gradient(rgb(15, 219, 202),rgb(177, 169, 169));
+    height: 710px;
+    
+       
+
+}
+.intro{
+    width: 30px;
+    margin:auto;
+}
+#pic{
+    border-radius:5in;
+    width: 2in;
+    height: 2in;
+    float:center;
+    margin-bottom: 0px;
+    
+    
+}
+.middle-container{
+    margin: 100px;
+    margin-bottom: 0px;
+    margin-top:80px;
+}
+.skills{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: center;
+}
+.Myskills{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+}
+#browser{
+    margin-right: 10px;
+    margin-left: 450px;
+    height: 100px;  
+    width: 100px;
+    float: left;
+}
+#h3-webd {
+    margin-top: 30px;
+   
+}
+.bottom-container{
+    background-image: linear-gradient(#1b9c96,rgb(5, 143, 131));
+    padding:50px;
+    padding-top:30px;
+    
+
+}
+#Message{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    margin-bottom: 50px;
+    color: black;
+}
+.bottom-link{
+    font-size:1.1rem;
+    text-decoration:none;
+    color:rgb(53, 51, 51) ;
+    margin:10px 20px;
+    text-align:center; 
+    padding-bottom: 50px;
+    
+}
+.bottom-link:hover{
+    color: azure;
+}
+#cloud1{
+    position: absolute;
+    margin-left: 1.5in;
+    top: 40px;
+    margin-bottom: 1in;
+    animation-duration: 4s;
+    filter: drop-shadow(8px 8px 8px rgb(59, 161, 219));
+    animation: moveInRight 2s ease-out; 
+}
+
+#cloud2{
+    margin-bottom: 1in;
+   padding-bottom: 5in;
+   margin-left: 1in;
+   align-items: center;
+   filter: drop-shadow(8px 8px 8px rgb(59, 161, 219));
+   animation: moveInLeft 2s ease-out; 
+}
+#cloud3{
+    padding-left:5.5in;
+    position: absolute;
+    padding-bottom: 4px;
+    align-items: center;
+    margin-top: 1in;
+    filter: drop-shadow(8px 8px 8px rgb(59, 161, 219));
+    animation: moveInRight 2s ease-out;   
+}
+@keyframes moveInRight {
+    0%{
+        opacity:5;
+        transform:translateX(10rem);
+    }
+    100%{
+    opacity:5;
+    transform:translateX(0);
+    }
+}
+
+@keyframes moveInLeft {
+    0%{
+        opacity:5;
+        transform:translateX(20rem);
+    }
+    100%{
+    opacity:5;
+    transform:translateX(0);
+    }
+}
+#mountain{ 
+    width:6in;
+    align:center;
+    padding-right:2.5in;
+    margin-bottom:2in;  
+}
+.button{
+    background-color:#24a7a0;
+    color:white;
+    text-decoration: none;
+    margin-top: 0.2in;
+    border-radius: 8px;
+    border-bottom: 100px;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;  
+}
+.button:hover {
+    color:black;
+}
+.Contact{
+    margin-bottom: 0.5in;
+}
+#Touch{
+    margin-bottom: 20px;
+}
+#hobby{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4in;
+    font-family: Sacramento,cursive;
+    font-size: 3rem;
+    font-weight: 12px;
+}
+#hobbypic{
+    padding-right: 3in;
+    height: 120px;  
+    width: 120px;
+    float: right;
+}
+
+.footer{
+    color:white;
+    margin-top: 50px;
+
+}
+a{
+    padding: 2%;
+}
+a :hover{
+    height: 3.5%;
+    width: 3.5%;
+}
